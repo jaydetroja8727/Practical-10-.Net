@@ -12,11 +12,9 @@ namespace Practical10_StudentAPI.Controllers
     {
         private static List<Student> students = new List<Student>
         {
-            new Student { Id = 1, Name = "PREET VORA", Email = "preet4959@gmail.com", Course = "Computer Engineering", Semester = 5 },
-            new Student { Id = 2, Name = "Ridham Patel", Email = "ridham@gmail.com", Course = "Computer Engineering", Semester = 5 },
-            new Student { Id = 3, Name = "Kirtan Chauhan", Email = "kirtan@gmail.com", Course = "Computer Engineering", Semester = 5 },
-            new Student { Id = 4, Name = "Jay Detroja", Email = "jay99@gmail.com", Course = "Computer Engineering", Semester = 5 },
-            new Student { Id = 5, Name = "Jenish Kanani", Email = "jenish@gmail.com", Course = "Computer Engineering", Semester = 5 }
+            new Student { Id = 1, Name = "JAY DETROJA", Email = "jay8727@gmail.com", Course = "Computer Engineering", Semester = 5 },
+            new Student { Id = 2, Name = "Manan Jani", Email = "manan@gmail.com", Course = "Computer Engineering", Semester = 5 },
+            new Student { Id = 3, Name = "Jenish Kanani", Email = "jenish@gmail.com", Course = "Computer Engineering", Semester = 5 }
         };
 
         [HttpGet]
